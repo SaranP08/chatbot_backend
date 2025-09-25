@@ -3,6 +3,4 @@ uvicorn[standard]==0.24.0
 pydantic==2.5.0
 python-multipart==0.0.6
 deep-translator==1.11.4
-# Add your existing requirements
-# rank (your custom module)
-# recommender (your custom module)
+pydantic-core==2.13.0
