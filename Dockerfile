@@ -1,14 +1,21 @@
-FROM python:3.13-slim
+# Use Python 3.12 slim image
+FROM python:3.12-slim
 
-# Install Rust
-RUN apt-get update && apt-get install -y curl build-essential \
-    && curl https://sh.rustup.rs -sSf | sh -s -- -y \
-    && export PATH="$HOME/.cargo/bin:$PATH"
-
+# Set working directory
 WORKDIR /app
+
+# Copy requirements first (caching)
 COPY requirements.txt .
+
+# Upgrade pip and install dependencies
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
+# Copy application code
 COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+# Expose port for Render
+EXPOSE 8000
+
+# Start command using Render PORT env variable
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port $PORT"]
