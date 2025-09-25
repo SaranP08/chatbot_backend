@@ -3,3 +3,9 @@ deep-translator==1.11.4
 fastapi==0.104.1
 pydantic==2.5.0
 uvicorn[standard]==0.23.2
+numpy
+faiss
+sentence_transformers
+rank_bm25
+deep_translator
+typing
