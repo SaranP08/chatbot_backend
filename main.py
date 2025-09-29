@@ -103,8 +103,8 @@ async def get_languages():
         "English": "en", "Hindi": "hi", "Tamil": "ta", "Telugu": "te", "Kannada": "kn",
         "Malayalam": "ml", "Marathi": "mr", "Gujarati": "gu", "Punjabi": "pa", "Bengali": "bn",
         "Odia": "or", "Urdu": "ur", "Assamese": "as", "French": "fr", "Spanish": "es",
-        "German": "de", "Italian": "it"
-    }
+        "German": "de", "Italian": "it", "manipuri": "mni", "swahili": "sw", "malay": "ms", "portuguese": "pt",
+        "turkish": "tr", "arabic": "ar", "indonesian": "id", "thai": "th", "chichewa": "ny" }
     return {"languages": indian_languages}
 
 @app.get("/recommendations/initial")
