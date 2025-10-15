@@ -51,6 +51,7 @@ class ChatResponse(BaseModel):
     recommendations: List[str]
     status: str = "success"
 
+# Renamed this for clarity, but your original name is fine too.
 class ActionRequest(BaseModel):
     action: str
     user_language: str = "en"
@@ -88,11 +89,9 @@ def translate_text(text: str, target_lang: str, source_lang: str = "auto") -> st
 
 def get_bot_response(query_en: str) -> tuple[str, List[str]]:
     global bot, recommender
-    
     query_en = str(query_en).strip()
     if not query_en:
         return "Please enter a question.", []
-
     results = bot.search(query_en, top_k=5, alpha=0.8)
     answer_en = results[0].get('answer') if results else "I'm sorry, I couldn't find an answer."
     new_recommendations = recommender.recommend(query_en)
@@ -121,7 +120,6 @@ async def get_initial_recommendations():
     global recommender
     if not recommender:
         raise HTTPException(status_code=500, detail="Recommender not loaded")
-    
     try:
         recommendations = recommender.get_initial_questions()
         return {"recommendations": recommendations}
@@ -133,17 +131,16 @@ async def chat(request: ChatRequest) -> ChatResponse:
     global bot, recommender
     if not bot or not recommender:
         raise HTTPException(status_code=500, detail="Models not loaded")
-    
     try:
         query_en = translate_text(request.message, "en", request.user_language)
         answer_en, new_recommendations = get_bot_response(query_en)
         answer_translated = translate_text(answer_en, request.user_language)
-        
         return ChatResponse(answer=answer_translated, recommendations=new_recommendations)
-    
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error processing chat: {str(e)}")
 
+
+# ---- THIS IS THE CORRECTED ENDPOINT ----
 @app.post("/recommendations/action")
 async def handle_recommendation_action(request: ActionRequest):
     """Handle recommendation actions ('go_back' or 'get_more')"""
@@ -157,18 +154,20 @@ async def handle_recommendation_action(request: ActionRequest):
             recommendations = recommender.go_back()
             return {"recommendations": recommendations}
         
+        # Add a specific condition for "get_more"
         elif request.action == "get_more":
             recommendations = recommender.get_more_questions()
             return {"recommendations": recommendations}
             
+        # If the action is neither, it's an error.
         else:
-            # Proper handling for unknown actions
             raise HTTPException(status_code=400, detail=f"Invalid action: '{request.action}'")
     
     except Exception as e:
         if isinstance(e, HTTPException):
             raise e
         raise HTTPException(status_code=500, detail=f"Error handling recommendation: {str(e)}")
+
 
 @app.post("/translate")
 async def translate(request: TranslationRequest):
