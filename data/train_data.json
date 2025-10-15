@@ -1,0 +1,1602 @@
+[
+  {
+    "instruction": "Is this service free or do I need to pay?",
+    "response": "The service is paid. LSWI and NDVI are complementary services, but other features incur charges."
+  },
+  {
+    "instruction": "Do I need to subscribe or is this offering free of cost?",
+    "response": "The service is paid. LSWI and NDVI are complementary services, but other features incur charges."
+  },
+  {
+    "instruction": "Can I use this platform without paying anything?",
+    "response": "The service is paid. LSWI and NDVI are complementary services, but other features incur charges."
+  },
+  {
+    "instruction": "What are the fees for using this service?",
+    "response": "The charges are 750 INR per acre per season, with one season being less than or equal to 6 months."
+  },
+  {
+    "instruction": "How much does it cost per acre per season?",
+    "response": "The charges are 750 INR per acre per season, with one season being less than or equal to 6 months."
+  },
+  {
+    "instruction": "Can you tell me the pricing details for the service?",
+    "response": "The charges are 750 INR per acre per season, with one season being less than or equal to 6 months."
+  },
+  {
+    "instruction": "How is soil moisture measured in this service?",
+    "response": "Soil moisture is measured at the surface level (a few cm/inches) using satellite data from microwave wavelengths, specifically active radar (SAR). Root zone soil moisture is not part of Sat2Farm but can be provided upon request for an additional charge. If the soil has a thin layer of leaves or other material, soil moisture measurement is not impacted."
+  },
+  {
+    "instruction": "What method is used to calculate soil moisture?",
+    "response": "Soil moisture is measured at the surface level (a few cm/inches) using satellite data from microwave wavelengths, specifically active radar (SAR). Root zone soil moisture is not part of Sat2Farm but can be provided upon request for an additional charge. If the soil has a thin layer of leaves or other material, soil moisture measurement is not impacted."
+  },
+  {
+    "instruction": "Are you tracking soil moisture at the surface or root level?",
+    "response": "Soil moisture is measured at the surface level (a few cm/inches) using satellite data from microwave wavelengths, specifically active radar (SAR). Root zone soil moisture is not part of Sat2Farm but can be provided upon request for an additional charge. If the soil has a thin layer of leaves or other material, soil moisture measurement is not impacted."
+  },
+  {
+    "instruction": "How accurate is the soil moisture data provided?",
+    "response": "Soil moisture data has about 80% accuracy, tested in India, Australia, New Zealand, France, and England. International research articles have been published on this topic. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "Can you tell me the accuracy level of soil moisture measurements?",
+    "response": "Soil moisture data has about 80% accuracy, tested in India, Australia, New Zealand, France, and England. International research articles have been published on this topic. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "What is the reliability of soil moisture data in this service?",
+    "response": "Soil moisture data has about 80% accuracy, tested in India, Australia, New Zealand, France, and England. International research articles have been published on this topic. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "Where does the weather data come from?",
+    "response": "Weather data is provided by a third party (Visual Crossing)."
+  },
+  {
+    "instruction": "Who is the provider of your weather information?",
+    "response": "Weather data is provided by a third party (Visual Crossing)."
+  },
+  {
+    "instruction": "What is the source of your weather dataset?",
+    "response": "Weather data is provided by a third party (Visual Crossing)."
+  },
+  {
+    "instruction": "How accurate is the weather data offered in this service?",
+    "response": "Weather data is approximately 80% accurate, with over 80% accuracy for the next 3 days. Predicting rainfall during the monsoon season in India is challenging due to rapidly moving clouds."
+  },
+  {
+    "instruction": "Can you explain the accuracy level of the weather predictions?",
+    "response": "Weather data is approximately 80% accurate, with over 80% accuracy for the next 3 days. Predicting rainfall during the monsoon season in India is challenging due to rapidly moving clouds."
+  },
+  {
+    "instruction": "What is the reliability of your weather forecast data?",
+    "response": "Weather data is approximately 80% accurate, with over 80% accuracy for the next 3 days. Predicting rainfall during the monsoon season in India is challenging due to rapidly moving clouds."
+  },
+  {
+    "instruction": "Is soil health analysis possible with satellite data?",
+    "response": "Yes, soil health analysis is performed using satellite data and past soil testing, providing information on N, P, K, soil organic carbon, and pH value. A patent has been filed for this algorithm. The model has been tested across India with an accuracy of 85-90%, though accuracy may vary due to factors like farming practices and climatic conditions. Validation is based on 20,000 samples across India, with 60% used for validation and 40% for training the model."
+  },
+  {
+    "instruction": "Can satellites be used to assess soil health?",
+    "response": "Yes, soil health analysis is performed using satellite data and past soil testing, providing information on N, P, K, soil organic carbon, and pH value. A patent has been filed for this algorithm. The model has been tested across India with an accuracy of 85-90%, though accuracy may vary due to factors like farming practices and climatic conditions. Validation is based on 20,000 samples across India, with 60% used for validation and 40% for training the model."
+  },
+  {
+    "instruction": "Do you analyze soil health parameters like NPK and pH using satellites?",
+    "response": "Yes, soil health analysis is performed using satellite data and past soil testing, providing information on N, P, K, soil organic carbon, and pH value. A patent has been filed for this algorithm. The model has been tested across India with an accuracy of 85-90%, though accuracy may vary due to factors like farming practices and climatic conditions. Validation is based on 20,000 samples across India, with 60% used for validation and 40% for training the model."
+  },
+  {
+    "instruction": "Can someone without farming background do farming using your advisories?",
+    "response": "Yes, a person without farming experience can gain hands-on experience by following the app’s guidelines, including the Crop Calendar for step-by-step advice from field preparation to harvest, along with fertilizer application, pest and disease forecasts, and irrigation scheduling."
+  },
+  {
+    "instruction": "Is farming possible for beginners if they use your app?",
+    "response": "Yes, a person without farming experience can gain hands-on experience by following the app’s guidelines, including the Crop Calendar for step-by-step advice from field preparation to harvest, along with fertilizer application, pest and disease forecasts, and irrigation scheduling."
+  },
+  {
+    "instruction": "Can a person who never farmed before rely on your advisories?",
+    "response": "Yes, a person without farming experience can gain hands-on experience by following the app’s guidelines, including the Crop Calendar for step-by-step advice from field preparation to harvest, along with fertilizer application, pest and disease forecasts, and irrigation scheduling."
+  },
+  {
+    "instruction": "Do you recommend which crop to grow in a district?",
+    "response": "Currently, we do not provide crop suggestions due to market risks and unpredictable natural environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Can your system suggest crops based on the district data?",
+    "response": "Currently, we do not provide crop suggestions due to market risks and unpredictable natural environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Will the app tell me which crop is best to grow in my area?",
+    "response": "Currently, we do not provide crop suggestions due to market risks and unpredictable natural environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Can soil moisture and NPK be detected for terrace gardens using satellites?",
+    "response": "Soil moisture and NDVI require a minimum area of 30 m x 30 m (about a quarter of an acre) for NDVI and 60 m x 60 m for soil moisture, making it generally not feasible for terrace gardens. Crop health and soil moisture can be provided if the size requirement is met, but soil health analysis is not available."
+  },
+  {
+    "instruction": "Is it possible to measure soil moisture and NPK for terrace farming?",
+    "response": "Soil moisture and NDVI require a minimum area of 30 m x 30 m (about a quarter of an acre) for NDVI and 60 m x 60 m for soil moisture, making it generally not feasible for terrace gardens. Crop health and soil moisture can be provided if the size requirement is met, but soil health analysis is not available."
+  },
+  {
+    "instruction": "Can terrace gardens be analyzed for soil moisture and NPK with satellites?",
+    "response": "Soil moisture and NDVI require a minimum area of 30 m x 30 m (about a quarter of an acre) for NDVI and 60 m x 60 m for soil moisture, making it generally not feasible for terrace gardens. Crop health and soil moisture can be provided if the size requirement is met, but soil health analysis is not available."
+  },
+  {
+    "instruction": "How long does it take to receive an image advisory?",
+    "response": "Image-based advisories are provided within a maximum of one working day, typically taking 3-4 working hours to process."
+  },
+  {
+    "instruction": "What is the turnaround time for image-based advisories?",
+    "response": "Image-based advisories are provided within a maximum of one working day, typically taking 3-4 working hours to process."
+  },
+  {
+    "instruction": "When can I expect the image advisory after requesting it?",
+    "response": "Image-based advisories are provided within a maximum of one working day, typically taking 3-4 working hours to process."
+  },
+  {
+    "instruction": "Do you have an iPhone app for Sat2Farm?",
+    "response": "Yes, an iPhone version of the Sat2Farm app is available."
+  },
+  {
+    "instruction": "Is the Sat2Farm application available for iOS devices?",
+    "response": "Yes, an iPhone version of the Sat2Farm app is available."
+  },
+  {
+    "instruction": "Can I download the Sat2Farm app on my iPhone?",
+    "response": "Yes, an iPhone version of the Sat2Farm app is available."
+  },
+  {
+    "instruction": "Which crops have pest and other advisories available?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "For how many crops do you provide pest and disease advisories?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "Can you list the crops covered under pest advisories?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "What is the minimum land size that the app can measure?",
+    "response": "The minimum area for satellite-based data is a quarter of an acre (30 m x 30 m) at 10 m spatial resolution. Other information can be provided for any size."
+  },
+  {
+    "instruction": "How small can the area be for the app to provide measurements?",
+    "response": "The minimum area for satellite-based data is a quarter of an acre (30 m x 30 m) at 10 m spatial resolution. Other information can be provided for any size."
+  },
+  {
+    "instruction": "What is the least area required to get satellite-based data?",
+    "response": "The minimum area for satellite-based data is a quarter of an acre (30 m x 30 m) at 10 m spatial resolution. Other information can be provided for any size."
+  },
+  {
+    "instruction": "Do you also provide organic pest and disease advisories?",
+    "response": "Yes, clients can specify a preference for organic solutions by including a remark like “Organic” in the comment section when uploading an image, and the team will provide pest and disease management recommendations based on organic methods."
+  },
+  {
+    "instruction": "Can I request organic solutions for pest and disease management?",
+    "response": "Yes, clients can specify a preference for organic solutions by including a remark like “Organic” in the comment section when uploading an image, and the team will provide pest and disease management recommendations based on organic methods."
+  },
+  {
+    "instruction": "Are organic farming advisories available in case of pest or disease attack?",
+    "response": "Yes, clients can specify a preference for organic solutions by including a remark like “Organic” in the comment section when uploading an image, and the team will provide pest and disease management recommendations based on organic methods."
+  },
+  {
+    "instruction": "Do you provide services for coffee and tea crops?",
+    "response": "Most services are available for coffee and tea, except satellite-based services if the crops are grown under shade where the canopy is not visible from above."
+  },
+  {
+    "instruction": "Are coffee and tea farmers supported by your services?",
+    "response": "Most services are available for coffee and tea, except satellite-based services if the crops are grown under shade where the canopy is not visible from above."
+  },
+  {
+    "instruction": "Can satellite services be used for tea and coffee plantations?",
+    "response": "Most services are available for coffee and tea, except satellite-based services if the crops are grown under shade where the canopy is not visible from above."
+  },
+  {
+    "instruction": "Can farmers advertise or market their products through the app?",
+    "response": "Sat2Farm does not promote agricultural input company products, but an API can be offered for integration into their app."
+  },
+  {
+    "instruction": "Does the app allow farmers to showcase or sell their products?",
+    "response": "Sat2Farm does not promote agricultural input company products, but an API can be offered for integration into their app."
+  },
+  {
+    "instruction": "Is there a feature for farmers to market their agricultural produce?",
+    "response": "Sat2Farm does not promote agricultural input company products, but an API can be offered for integration into their app."
+  },
+  {
+    "instruction": "Can farmers directly call for inquiries?",
+    "response": "Yes, farmers can call for inquiries. Language-specific contact details are provided in the Sat2Farm app."
+  },
+  {
+    "instruction": "Is there a helpline for farmers to contact your team?",
+    "response": "Yes, farmers can call for inquiries. Language-specific contact details are provided in the Sat2Farm app."
+  },
+  {
+    "instruction": "Are phone-based inquiries supported for farmers?",
+    "response": "Yes, farmers can call for inquiries. Language-specific contact details are provided in the Sat2Farm app."
+  },
+  {
+    "instruction": "Do farmers get follow-up calls from the technical team?",
+    "response": "Yes, the technical team may contact users for clarification, such as when an uploaded image for pest/disease advisory is unclear or more information is needed."
+  },
+  {
+    "instruction": "Will agri experts call farmers if needed?",
+    "response": "Yes, the technical team may contact users for clarification, such as when an uploaded image for pest/disease advisory is unclear or more information is needed."
+  },
+  {
+    "instruction": "Can farmers expect calls from the technical support team?",
+    "response": "Yes, the technical team may contact users for clarification, such as when an uploaded image for pest/disease advisory is unclear or more information is needed."
+  },
+  {
+    "instruction": "Can NDVI detect pest or disease attacks?",
+    "response": "NDVI measures crop health through leaf greenness but does not directly detect pests or diseases. A decline in NDVI values can signal crop stress, prompting further investigation for pests or diseases. NDVI can also monitor the spread of pests/diseases and assess treatment effectiveness by comparing values over time."
+  },
+  {
+    "instruction": "Is NDVI useful for identifying pest or disease problems?",
+    "response": "NDVI measures crop health through leaf greenness but does not directly detect pests or diseases. A decline in NDVI values can signal crop stress, prompting further investigation for pests or diseases. NDVI can also monitor the spread of pests/diseases and assess treatment effectiveness by comparing values over time."
+  },
+  {
+    "instruction": "Does NDVI indicate pest infestation or disease presence?",
+    "response": "NDVI measures crop health through leaf greenness but does not directly detect pests or diseases. A decline in NDVI values can signal crop stress, prompting further investigation for pests or diseases. NDVI can also monitor the spread of pests/diseases and assess treatment effectiveness by comparing values over time."
+  },
+  {
+    "instruction": "What factors influence the accuracy of soil moisture measurement?",
+    "response": "Soil moisture accuracy depends on soil type, vegetation type, and irrigation methods."
+  },
+  {
+    "instruction": "Which conditions affect soil moisture accuracy?",
+    "response": "Soil moisture accuracy depends on soil type, vegetation type, and irrigation methods."
+  },
+  {
+    "instruction": "Why does soil moisture accuracy vary?",
+    "response": "Soil moisture accuracy depends on soil type, vegetation type, and irrigation methods."
+  },
+  {
+    "instruction": "What factors influence the accuracy of irrigation advisories?",
+    "response": "Irrigation advisory accuracy depends on crop type, crop stage, crop coefficient, potential evapotranspiration (ET), amount of irrigation (in mm), and frequency."
+  },
+  {
+    "instruction": "Which parameters affect irrigation advisory precision?",
+    "response": "Irrigation advisory accuracy depends on crop type, crop stage, crop coefficient, potential evapotranspiration (ET), amount of irrigation (in mm), and frequency."
+  },
+  {
+    "instruction": "Why might irrigation advisory accuracy vary?",
+    "response": "Irrigation advisory accuracy depends on crop type, crop stage, crop coefficient, potential evapotranspiration (ET), amount of irrigation (in mm), and frequency."
+  },
+  {
+    "instruction": "What determines the accuracy of weather forecasts?",
+    "response": "Weather forecast accuracy varies based on the density of ground based weather stations. Regions with denser networks have better accuracy than those with fewer stations."
+  },
+  {
+    "instruction": "Which factors affect how accurate weather forecasts are?",
+    "response": "Weather forecast accuracy varies based on the density of ground based weather stations. Regions with denser networks have better accuracy than those with fewer stations."
+  },
+  {
+    "instruction": "Why does weather forecast accuracy differ by region?",
+    "response": "Weather forecast accuracy varies based on the density of ground based weather stations. Regions with denser networks have better accuracy than those with fewer stations."
+  },
+  {
+    "instruction": "Can you provide data for thick plantations like banana, mango, and coconut?",
+    "response": "Weather forecasts, crop health, and pest/disease advisories are available for thick plantations like banana, mango, and coconut. However, soil health analysis and soil moisture accuracy may be relatively low for these crops."
+  },
+  {
+    "instruction": "Is information available for crops like banana, mango, or coconut?",
+    "response": "Weather forecasts, crop health, and pest/disease advisories are available for thick plantations like banana, mango, and coconut. However, soil health analysis and soil moisture accuracy may be relatively low for these crops."
+  },
+  {
+    "instruction": "Do you cover thick plantations such as banana, mango, and coconut?",
+    "response": "Weather forecasts, crop health, and pest/disease advisories are available for thick plantations like banana, mango, and coconut. However, soil health analysis and soil moisture accuracy may be relatively low for these crops."
+  },
+  {
+    "instruction": "Can farmers access data on crops grown nearby for market prediction?",
+    "response": "Currently, we do not provide information on crops grown in nearby areas for market prediction due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Is data available for crops in neighboring fields for market analysis?",
+    "response": "Currently, we do not provide information on crops grown in nearby areas for market prediction due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Do you provide information on nearby crops for predicting market trends?",
+    "response": "Currently, we do not provide information on crops grown in nearby areas for market prediction due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Can services be offered for Integrated Farming Systems (IFS)?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Are Integrated Farming Systems (IFS) supported by your services?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How can farmers get IFS-related services?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How frequently is soil moisture updated on the app?",
+    "response": "Soil moisture is updated once every 12 days."
+  },
+  {
+    "instruction": "What is the update interval for soil moisture data in the app?",
+    "response": "Soil moisture is updated once every 12 days."
+  },
+  {
+    "instruction": "How often can users see new soil moisture readings on the app?",
+    "response": "Soil moisture is updated once every 12 days."
+  },
+  {
+    "instruction": "What happens to soil moisture and NDVI advisories during cloud cover?",
+    "response": "Soil moisture, derived from microwave data, is unaffected by cloud cover and is available every 12 days. NDVI, obtained from optical data, is not accessible during cloud cover."
+  },
+  {
+    "instruction": "Are soil moisture and NDVI measurements affected by clouds?",
+    "response": "Soil moisture, derived from microwave data, is unaffected by cloud cover and is available every 12 days. NDVI, obtained from optical data, is not accessible during cloud cover."
+  },
+  {
+    "instruction": "Can advice for NDVI and soil moisture still be provided if the sky is cloudy?",
+    "response": "Soil moisture, derived from microwave data, is unaffected by cloud cover and is available every 12 days. NDVI, obtained from optical data, is not accessible during cloud cover."
+  },
+  {
+    "instruction": "What technology is used for irrigation scheduling?",
+    "response": "Irrigation scheduling is based on two methods: 1. Satellite SM-based method: Computes irrigation requirements using satellite soil moisture data compared to the maximum allowable deficit, depending on crop type and stage. 2. ET-based method: Uses weather forecast data to compute potential evapotranspiration (PET) and determines irrigation water requirements based on crop and stage. The ET-based method is primarily used due to the 12-day satellite pass interval for soil moisture."
+  },
+  {
+    "instruction": "How is irrigation scheduling determined in this system?",
+    "response": "Irrigation scheduling is based on two methods: 1. Satellite SM-based method: Computes irrigation requirements using satellite soil moisture data compared to the maximum allowable deficit, depending on crop type and stage. 2. ET-based method: Uses weather forecast data to compute potential evapotranspiration (PET) and determines irrigation water requirements based on crop and stage. The ET-based method is primarily used due to the 12-day satellite pass interval for soil moisture."
+  },
+  {
+    "instruction": "Which methods are employed to schedule irrigation for crops?",
+    "response": "Irrigation scheduling is based on two methods: 1. Satellite SM-based method: Computes irrigation requirements using satellite soil moisture data compared to the maximum allowable deficit, depending on crop type and stage. 2. ET-based method: Uses weather forecast data to compute potential evapotranspiration (PET) and determines irrigation water requirements based on crop and stage. The ET-based method is primarily used due to the 12-day satellite pass interval for soil moisture."
+  },
+  {
+    "instruction": "What feedback have farmers given for cotton, soybean, maize, sugarcane, and chana crop profiles?",
+    "response": "Farmers are satisfied with the Crop Calendar, with positive feedback received for chickpea from Adilabad and sugarcane from Uttar Pradesh."
+  },
+  {
+    "instruction": "How do farmers rate the Crop Calendar for major crops like cotton, maize, and sugarcane?",
+    "response": "Farmers are satisfied with the Crop Calendar, with positive feedback received for chickpea from Adilabad and sugarcane from Uttar Pradesh."
+  },
+  {
+    "instruction": "What is the farmer response to crop profiles for crops such as cotton and chana?",
+    "response": "Farmers are satisfied with the Crop Calendar, with positive feedback received for chickpea from Adilabad and sugarcane from Uttar Pradesh."
+  },
+  {
+    "instruction": "Can historical geo-tagged data in KML format be backfilled into the app?",
+    "response": "Historical data is provided outside the app. Data from 2016 can be supplied upon request on a paid basis."
+  },
+  {
+    "instruction": "Is it possible to upload past KML data into Sat2Farm?",
+    "response": "Historical data is provided outside the app. Data from 2016 can be supplied upon request on a paid basis."
+  },
+  {
+    "instruction": "Can the app accept old geo-tagged KML data?",
+    "response": "Historical data is provided outside the app. Data from 2016 can be supplied upon request on a paid basis."
+  },
+  {
+    "instruction": "Which crops are covered in the Sat2Farm app?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "What crop advisories are available through Sat2Farm?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "Can you list the crops supported in the Sat2Farm app?",
+    "response": "Advisories are provided for over 100 crops in India and extended to other countries. For specific crop advisories, the team will prioritize them, with timeframes varying by crop type."
+  },
+  {
+    "instruction": "Is data for land undulation and terrain available?",
+    "response": "Yes, land undulation and terrain data can be provided at 30 m spatial resolution using free and open-source Digital Elevation Model (DEM) data."
+  },
+  {
+    "instruction": "Can Sat2Farm provide terrain and elevation information?",
+    "response": "Yes, land undulation and terrain data can be provided at 30 m spatial resolution using free and open-source Digital Elevation Model (DEM) data."
+  },
+  {
+    "instruction": "Are land undulation and DEM-based terrain data available?",
+    "response": "Yes, land undulation and terrain data can be provided at 30 m spatial resolution using free and open-source Digital Elevation Model (DEM) data."
+  },
+  {
+    "instruction": "What is the maximum canopy height for accurate soil moisture estimation?",
+    "response": "Soil moisture can be estimated for crops shorter than 5 feet. Above this height, uncertainty in soil moisture data increases."
+  },
+  {
+    "instruction": "Up to what crop height can soil moisture be reliably measured?",
+    "response": "Soil moisture can be estimated for crops shorter than 5 feet. Above this height, uncertainty in soil moisture data increases."
+  },
+  {
+    "instruction": "Is there a height limit for crops when estimating soil moisture?",
+    "response": "Soil moisture can be estimated for crops shorter than 5 feet. Above this height, uncertainty in soil moisture data increases."
+  },
+  {
+    "instruction": "How can/to farmers access the sat2farm app or web portal for a trial?",
+    "response": "The mobile application is available on the Play Store. For the web application, a trial can be provided upon request. A demo can be scheduled via Calendly on the website: https://satyukt.com/index.html."
+  },
+  {
+    "instruction": "Is it possible to try the Sat2Farm app or web platform before purchase?",
+    "response": "The mobile application is available on the Play Store. For the web application, a trial can be provided upon request. A demo can be scheduled via Calendly on the website: https://satyukt.com/index.html."
+  },
+  {
+    "instruction": "Can users get a demo or trial of the mobile or web application?",
+    "response": "The mobile application is available on the Play Store. For the web application, a trial can be provided upon request. A demo can be scheduled via Calendly on the website: https://satyukt.com/index.html."
+  },
+  {
+    "instruction": "What are the accuracy levels of weather, NDVI, soil moisture, and soil nutrient analysis?",
+    "response": "Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)\nWeather Data: ~90% accuracy, with 98% accuracy for the next 3 days; less accurate for rainfall during India’s monsoon season.\nSoil Nutrient Analysis: ~85-90% accuracy, varying due to farming practices and climatic conditions.\nNDVI: Accuracy varies (good, bad, or better) based on data quality and conditions."
+  },
+  {
+    "instruction": "How accurate are the measurements for soil moisture, weather, NDVI, and nutrients?",
+    "response": "Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)\nWeather Data: ~90% accuracy, with 98% accuracy for the next 3 days; less accurate for rainfall during India’s monsoon season.\nSoil Nutrient Analysis: ~85-90% accuracy, varying due to farming practices and climatic conditions.\nNDVI: Accuracy varies (good, bad, or better) based on data quality and conditions."
+  },
+  {
+    "instruction": "Can you provide the accuracy statistics for weather, NDVI, soil moisture, and nutrient analysis?",
+    "response": "Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)\nWeather Data: ~90% accuracy, with 98% accuracy for the next 3 days; less accurate for rainfall during India’s monsoon season.\nSoil Nutrient Analysis: ~85-90% accuracy, varying due to farming practices and climatic conditions.\nNDVI: Accuracy varies (good, bad, or better) based on data quality and conditions."
+  },
+  {
+    "instruction": "Can the satellite base map be updated in the app?",
+    "response": "The app uses Google’s basemap, which updates automatically when Google updates it. It is used solely for location purposes."
+  },
+  {
+    "instruction": "Is it possible to refresh or change the satellite base map in Sat2Farm?",
+    "response": "The app uses Google’s basemap, which updates automatically when Google updates it. It is used solely for location purposes."
+  },
+  {
+    "instruction": "How can the satellite basemap be updated within the application?",
+    "response": "The app uses Google’s basemap, which updates automatically when Google updates it. It is used solely for location purposes."
+  },
+  {
+    "instruction": "How accurate are Sat2Farm features for citrus crops covered with nets in South Africa?",
+    "response": "For citrus crops covered with light, transparent nets (e.g., for hail protection), most satellite-based features like crop health and soil health are reliable. Weather forecasts, pest/disease advisories, and crop calendars are unaffected by nets. However, soil moisture and soil health data may have some uncertainties due to net cover and tree canopy."
+  },
+  {
+    "instruction": "Are the app’s features reliable for net-covered citrus crops?",
+    "response": "For citrus crops covered with light, transparent nets (e.g., for hail protection), most satellite-based features like crop health and soil health are reliable. Weather forecasts, pest/disease advisories, and crop calendars are unaffected by nets. However, soil moisture and soil health data may have some uncertainties due to net cover and tree canopy."
+  },
+  {
+    "instruction": "Can Sat2Farm provide accurate data for citrus trees under nets?",
+    "response": "For citrus crops covered with light, transparent nets (e.g., for hail protection), most satellite-based features like crop health and soil health are reliable. Weather forecasts, pest/disease advisories, and crop calendars are unaffected by nets. However, soil moisture and soil health data may have some uncertainties due to net cover and tree canopy."
+  },
+  {
+    "instruction": "Do you have carbon emission data for puddled rice versus drill-down rice fields?",
+    "response": "An algorithm has been developed to estimate carbon emissions from puddled rice fields and fields managed with alternate wetting and drying methods."
+  },
+  {
+    "instruction": "Can Sat2Farm estimate carbon emissions for different rice field management practices?",
+    "response": "An algorithm has been developed to estimate carbon emissions from puddled rice fields and fields managed with alternate wetting and drying methods."
+  },
+  {
+    "instruction": "Is there a way to compare carbon emissions of puddled and drill-down rice fields?",
+    "response": "An algorithm has been developed to estimate carbon emissions from puddled rice fields and fields managed with alternate wetting and drying methods."
+  },
+  {
+    "instruction": "How can farmers receive carbon credits in their bank accounts?",
+    "response": "Sat2Farm specializes in estimating carbon emissions through the MRV (Monitoring, Reporting, Verification) process. Actual crediting and transfer of carbon credits to bank accounts are handled by organizations managing carbon credit programs. Farmers should register with such platforms for verification and monetization of credits."
+  },
+  {
+    "instruction": "What is the process for farmers to get carbon credits credited to their accounts?",
+    "response": "Sat2Farm specializes in estimating carbon emissions through the MRV (Monitoring, Reporting, Verification) process. Actual crediting and transfer of carbon credits to bank accounts are handled by organizations managing carbon credit programs. Farmers should register with such platforms for verification and monetization of credits."
+  },
+  {
+    "instruction": "Can Sat2Farm help farmers transfer carbon credits to their bank accounts?",
+    "response": "Sat2Farm specializes in estimating carbon emissions through the MRV (Monitoring, Reporting, Verification) process. Actual crediting and transfer of carbon credits to bank accounts are handled by organizations managing carbon credit programs. Farmers should register with such platforms for verification and monetization of credits."
+  },
+  {
+    "instruction": "What is the standard procedure for registering for carbon credits under carbon sequestration?",
+    "response": "Farmers need to register with platforms managing carbon credit programs, where credits are issued and monetized after verification. Specific SOPs vary by organization, so farmers should consult the relevant platform for details."
+  },
+  {
+    "instruction": "How can farmers sign up for carbon credits through sequestration programs?",
+    "response": "Farmers need to register with platforms managing carbon credit programs, where credits are issued and monetized after verification. Specific SOPs vary by organization, so farmers should consult the relevant platform for details."
+  },
+  {
+    "instruction": "Is there a standard procedure for farmers to get carbon credits verified and monetized?",
+    "response": "Farmers need to register with platforms managing carbon credit programs, where credits are issued and monetized after verification. Specific SOPs vary by organization, so farmers should consult the relevant platform for details."
+  },
+  {
+    "instruction": "When will the Government of India implement the carbon credit trading program?",
+    "response": "The Indian Carbon Market (ICM) is expected to launch soon, with a draft procedure issued by the Bureau of Energy Efficiency (BEE) in late 2023. The Ministry of Environment, Forest and Climate Change will oversee the program by setting annual GHG reduction targets."
+  },
+  {
+    "instruction": "What is the timeline for the launch of India's carbon credit trading program?",
+    "response": "The Indian Carbon Market (ICM) is expected to launch soon, with a draft procedure issued by the Bureau of Energy Efficiency (BEE) in late 2023. The Ministry of Environment, Forest and Climate Change will oversee the program by setting annual GHG reduction targets."
+  },
+  {
+    "instruction": "Has the Government of India announced the start date for carbon credit trading?",
+    "response": "The Indian Carbon Market (ICM) is expected to launch soon, with a draft procedure issued by the Bureau of Energy Efficiency (BEE) in late 2023. The Ministry of Environment, Forest and Climate Change will oversee the program by setting annual GHG reduction targets."
+  },
+  {
+    "instruction": "Are coffee planters eligible for crop insurance against bad weather losses?",
+    "response": "Yes, coffee planters in India are eligible for crop insurance under schemes like the Pradhan Mantri Fasal Bima Yojana (PMFBY), which covers losses due to adverse weather for perennial crops like coffee. Sat2Farm works with insurance companies to provide Sat4risk reports."
+  },
+  {
+    "instruction": "Can coffee farmers get insurance for weather-related crop damage?",
+    "response": "Yes, coffee planters in India are eligible for crop insurance under schemes like the Pradhan Mantri Fasal Bima Yojana (PMFBY), which covers losses due to adverse weather for perennial crops like coffee. Sat2Farm works with insurance companies to provide Sat4risk reports."
+  },
+  {
+    "instruction": "Is crop insurance available for coffee crops affected by adverse weather?",
+    "response": "Yes, coffee planters in India are eligible for crop insurance under schemes like the Pradhan Mantri Fasal Bima Yojana (PMFBY), which covers losses due to adverse weather for perennial crops like coffee. Sat2Farm works with insurance companies to provide Sat4risk reports."
+  },
+  {
+    "instruction": "How does Sat2Farm support farmers in distress?",
+    "response": "Sat2Farm provides forecasting and standard Package of Practices (POP) to support farmers in distress."
+  },
+  {
+    "instruction": "What assistance does Satyukt Technology offer to farmers facing difficulties?",
+    "response": "Sat2Farm provides forecasting and standard Package of Practices (POP) to support farmers in distress."
+  },
+  {
+    "instruction": "Can Sat2Farm help farmers who are in trouble or under risk?",
+    "response": "Sat2Farm provides forecasting and standard Package of Practices (POP) to support farmers in distress."
+  },
+  {
+    "instruction": "Can I add multiple GPS points to geotag a larger farm?",
+    "response": "Yes, a minimum of three coordinates is required to geotag a farm, and more can be added for larger farms. Once geotagged, coordinates cannot be modified in the app for that farm."
+  },
+  {
+    "instruction": "How can I geotag a large farm using multiple GPS points?",
+    "response": "Yes, a minimum of three coordinates is required to geotag a farm, and more can be added for larger farms. Once geotagged, coordinates cannot be modified in the app for that farm."
+  },
+  {
+    "instruction": "Is it possible to add extra coordinates when geotagging a farm?",
+    "response": "Yes, a minimum of three coordinates is required to geotag a farm, and more can be added for larger farms. Once geotagged, coordinates cannot be modified in the app for that farm."
+  },
+  {
+    "instruction": "Can a farm without a sown crop be added to the app, and what option should be used?",
+    "response": "Yes, a farm without a sown crop can be added using the “barren land” option. However, features like crop calendar, pest/disease forewarning, and crop-specific soil recommendations will not be available."
+  },
+  {
+    "instruction": "Is it possible to register a farm with no crops, and which selection is required?",
+    "response": "Yes, a farm without a sown crop can be added using the “barren land” option. However, features like crop calendar, pest/disease forewarning, and crop-specific soil recommendations will not be available."
+  },
+  {
+    "instruction": "How can a farm without planted crops be added in the app?",
+    "response": "Yes, a farm without a sown crop can be added using the “barren land” option. However, features like crop calendar, pest/disease forewarning, and crop-specific soil recommendations will not be available."
+  },
+  {
+    "instruction": "Can French language integration be done in the app?",
+    "response": "The app supports French, but advisories like pest/disease forewarning and crop calendar are available for only a few crops in French. Other international languages are also supported. For specific international crop advisories, consult the Operations team."
+  },
+  {
+    "instruction": "Is French supported in Sat2Farm, and what limitations exist?",
+    "response": "The app supports French, but advisories like pest/disease forewarning and crop calendar are available for only a few crops in French. Other international languages are also supported. For specific international crop advisories, consult the Operations team."
+  },
+  {
+    "instruction": "Does Sat2Farm support multiple languages including French?",
+    "response": "The app supports French, but advisories like pest/disease forewarning and crop calendar are available for only a few crops in French. Other international languages are also supported. For specific international crop advisories, consult the Operations team."
+  },
+  {
+    "instruction": "Can disease examples in the app include pictures?",
+    "response": "Yes, disease forewarning includes accompanying images for better understanding."
+  },
+  {
+    "instruction": "Are visual examples provided for disease alerts in Sat2Farm?",
+    "response": "Yes, disease forewarning includes accompanying images for better understanding."
+  },
+  {
+    "instruction": "Does the app provide images to illustrate diseases in crops?",
+    "response": "Yes, disease forewarning includes accompanying images for better understanding."
+  },
+  {
+    "instruction": "Can some Sat2Farm services be offered on a freemium basis?",
+    "response": "No, services are not offered on a freemium basis. However, complementary features like soil moisture and NDVI are available once services are unlocked after payment."
+  },
+  {
+    "instruction": "Are any features available for free before payment?",
+    "response": "No, services are not offered on a freemium basis. However, complementary features like soil moisture and NDVI are available once services are unlocked after payment."
+  },
+  {
+    "instruction": "Is there a freemium version of Sat2Farm services?",
+    "response": "No, services are not offered on a freemium basis. However, complementary features like soil moisture and NDVI are available once services are unlocked after payment."
+  },
+  {
+    "instruction": "Can I download a soil report from the app?",
+    "response": "Yes, the app allows users to download soil reports in PDF format."
+  },
+  {
+    "instruction": "Is it possible to get a PDF copy of the soil report?",
+    "response": "Yes, the app allows users to download soil reports in PDF format."
+  },
+  {
+    "instruction": "Does Sat2Farm provide downloadable soil reports?",
+    "response": "Yes, the app allows users to download soil reports in PDF format."
+  },
+  {
+    "instruction": "Why doesn’t the Android app show landmark names, and is the map updated?",
+    "response": "The app uses Google Earth maps, aligned with Google’s updates and features. Satyukt cannot modify basemap features, including landmark names."
+  },
+  {
+    "instruction": "Is the Android map more updated, and why are landmarks missing?",
+    "response": "The app uses Google Earth maps, aligned with Google’s updates and features. Satyukt cannot modify basemap features, including landmark names."
+  },
+  {
+    "instruction": "How current is the Android map, and why can’t we see certain landmark names?",
+    "response": "The app uses Google Earth maps, aligned with Google’s updates and features. Satyukt cannot modify basemap features, including landmark names."
+  },
+  {
+    "instruction": "Is each farm billed separately in Sat2Farm?",
+    "response": "Yes, each farm requires separate payment, charged on a per-acre, per season basis."
+  },
+  {
+    "instruction": "Do I need to pay individually for every farm?",
+    "response": "Yes, each farm requires separate payment, charged on a per-acre, per season basis."
+  },
+  {
+    "instruction": "Are payments handled per farm or collectively?",
+    "response": "Yes, each farm requires separate payment, charged on a per-acre, per season basis."
+  },
+  {
+    "instruction": "Can I access older data, like last year’s crop production?",
+    "response": "Older data (e.g., from the previous year) can be provided upon request for an additional cost, but it is not directly available through the app."
+  },
+  {
+    "instruction": "Is it possible to retrieve previous year’s data for comparison?",
+    "response": "Older data (e.g., from the previous year) can be provided upon request for an additional cost, but it is not directly available through the app."
+  },
+  {
+    "instruction": "How can I get historical crop data from previous years?",
+    "response": "Older data (e.g., from the previous year) can be provided upon request for an additional cost, but it is not directly available through the app."
+  },
+  {
+    "instruction": "Can I see real-time price trends of crops in the app?",
+    "response": "Currently, real-time crop price trends are not provided due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Does Sat2Farm provide live market prices for various crops?",
+    "response": "Currently, real-time crop price trends are not provided due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Is it possible to get real-time crop price information through Sat2Farm?",
+    "response": "Currently, real-time crop price trends are not provided due to market risks and unpredictable environmental conditions, as results may vary."
+  },
+  {
+    "instruction": "Can I get data on water requirements per acre for a specific crop?",
+    "response": "Yes, the app provides irrigation advice tailored to the specific crop and available moisture content to optimize crop growth."
+  },
+  {
+    "instruction": "Does the app provide crop-specific irrigation recommendations?",
+    "response": "Yes, the app provides irrigation advice tailored to the specific crop and available moisture content to optimize crop growth."
+  },
+  {
+    "instruction": "How can I find out the water needed per acre for my crop?",
+    "response": "Yes, the app provides irrigation advice tailored to the specific crop and available moisture content to optimize crop growth."
+  },
+  {
+    "instruction": "How accurate is the data provided in the soil and crop report?",
+    "response": "Overall report accuracy is 88-92%. Specifically:\n• Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England.\n• Weather Data: ~90% accuracy, with 98% for the next 3 days; less accurate for monsoon rainfall in India.\n• Soil Nutrient Analysis: ~85-90% accuracy, varying by farming practices and climatic conditions.\n• NDVI: Accuracy varies based on data quality and conditions. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "What is the accuracy of soil moisture, weather, NDVI, and nutrient data in the report?",
+    "response": "Overall report accuracy is 88-92%. Specifically:\n• Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England.\n• Weather Data: ~90% accuracy, with 98% for the next 3 days; less accurate for monsoon rainfall in India.\n• Soil Nutrient Analysis: ~85-90% accuracy, varying by farming practices and climatic conditions.\n• NDVI: Accuracy varies based on data quality and conditions. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "Can you provide the accuracy levels for the report’s data?",
+    "response": "Overall report accuracy is 88-92%. Specifically:\n• Soil Moisture: ~80% accuracy, tested in India, Australia, New Zealand, France, and England.\n• Weather Data: ~90% accuracy, with 98% for the next 3 days; less accurate for monsoon rainfall in India.\n• Soil Nutrient Analysis: ~85-90% accuracy, varying by farming practices and climatic conditions.\n• NDVI: Accuracy varies based on data quality and conditions. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "Why are soil health reports provided every 6 months and not more frequently?",
+    "response": "Soil health reports are provided every 6 months because most crops take approximately 6 months to mature, aligning with government guidelines (e.g., India’s Soil Health Card Scheme recommends testing every 2-3 years, USDA suggests annually or every 3-5 years). Weekly or fortnightly reports are not feasible due to the need for barren land and clear skies for accurate satellite data, which is challenging during the Kharif season due to cloud cover. Reports are typically based on data from the last barren period (up to 6 months old)."
+  },
+  {
+    "instruction": "Can soil health reports be provided weekly or fortnightly instead of every 6 months?",
+    "response": "Soil health reports are provided every 6 months because most crops take approximately 6 months to mature, aligning with government guidelines (e.g., India’s Soil Health Card Scheme recommends testing every 2-3 years, USDA suggests annually or every 3-5 years). Weekly or fortnightly reports are not feasible due to the need for barren land and clear skies for accurate satellite data, which is challenging during the Kharif season due to cloud cover. Reports are typically based on data from the last barren period (up to 6 months old)."
+  },
+  {
+    "instruction": "Why can’t soil health reports be generated more frequently than every 6 months?",
+    "response": "Soil health reports are provided every 6 months because most crops take approximately 6 months to mature, aligning with government guidelines (e.g., India’s Soil Health Card Scheme recommends testing every 2-3 years, USDA suggests annually or every 3-5 years). Weekly or fortnightly reports are not feasible due to the need for barren land and clear skies for accurate satellite data, which is challenging during the Kharif season due to cloud cover. Reports are typically based on data from the last barren period (up to 6 months old)."
+  },
+  {
+    "instruction": "Do you have a desktop application for Sat2Farm?",
+    "response": "No, we have a web portal instead of a desktop app."
+  },
+  {
+    "instruction": "Is there a desktop version of the Sat2Farm app?",
+    "response": "No, we have a web portal instead of a desktop app."
+  },
+  {
+    "instruction": "Can I use Sat2Farm as a desktop application?",
+    "response": "No, we have a web portal instead of a desktop app."
+  },
+  {
+    "instruction": "Does Sat2Farm provide an Agriculture ERP or complete ERP for sugar mills with irrigation automation?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Is there an ERP solution for sugarcane plantations with irrigation control?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How can I get information about a complete ERP for sugar mills and sugarcane plantations?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How frequently does the satellite test or monitor the soil?",
+    "response": "Soil data frequency depends on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily, lower resolution). Soil moisture data is updated every 12 days using microwave sensors unaffected by cloud cover."
+  },
+  {
+    "instruction": "What is the rotation frequency of satellite soil monitoring?",
+    "response": "Soil data frequency depends on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily, lower resolution). Soil moisture data is updated every 12 days using microwave sensors unaffected by cloud cover."
+  },
+  {
+    "instruction": "How often is soil data updated from satellites?",
+    "response": "Soil data frequency depends on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily, lower resolution). Soil moisture data is updated every 12 days using microwave sensors unaffected by cloud cover."
+  },
+  {
+    "instruction": "How long has remote sensing technology been in use?",
+    "response": "Remote sensing technology has existed since the 1960s, with the Landsat program starting in 1972. Microwave-based soil moisture sensing began in the late 1970s to early 1980s, with significant advancements like NASA’s SMAP satellite in 2015."
+  },
+  {
+    "instruction": "When did remote sensing technology first start?",
+    "response": "Remote sensing technology has existed since the 1960s, with the Landsat program starting in 1972. Microwave-based soil moisture sensing began in the late 1970s to early 1980s, with significant advancements like NASA’s SMAP satellite in 2015."
+  },
+  {
+    "instruction": "Since when has remote sensing technology been applied in agriculture?",
+    "response": "Remote sensing technology has existed since the 1960s, with the Landsat program starting in 1972. Microwave-based soil moisture sensing began in the late 1970s to early 1980s, with significant advancements like NASA’s SMAP satellite in 2015."
+  },
+  {
+    "instruction": "What is the experience of Sat2Farm in generating soil and crop reports?",
+    "response": "Reports are generated with 85-90% accuracy, tested across India, using 20,000+ soil samples (60% for validation, 40% for training). Accuracy may vary due to farming practices and climatic conditions."
+  },
+  {
+    "instruction": "How experienced is Sat2Farm in producing these agricultural reports?",
+    "response": "Reports are generated with 85-90% accuracy, tested across India, using 20,000+ soil samples (60% for validation, 40% for training). Accuracy may vary due to farming practices and climatic conditions."
+  },
+  {
+    "instruction": "Can you describe the track record in generating reports using Sat2Farm?",
+    "response": "Reports are generated with 85-90% accuracy, tested across India, using 20,000+ soil samples (60% for validation, 40% for training). Accuracy may vary due to farming practices and climatic conditions."
+  },
+  {
+    "instruction": "How accurate are Sat2Farm’s reports?",
+    "response": "Reports have 85-90% accuracy, though this may vary depending on factors like farming practices and climatic conditions."
+  },
+  {
+    "instruction": "What is the reliability of the soil and crop reports?",
+    "response": "Reports have 85-90% accuracy, though this may vary depending on factors like farming practices and climatic conditions."
+  },
+  {
+    "instruction": "Can you provide the accuracy levels of these reports?",
+    "response": "Reports have 85-90% accuracy, though this may vary depending on factors like farming practices and climatic conditions."
+  },
+  {
+    "instruction": "How deep does remote sensing test the soil?",
+    "response": "Remote sensing estimates soil properties in the topsoil layer, up to approximately 5 cm (2 inches) deep, using surface reflectance data."
+  },
+  {
+    "instruction": "What is the depth of soil testing using satellite-based methods?",
+    "response": "Remote sensing estimates soil properties in the topsoil layer, up to approximately 5 cm (2 inches) deep, using surface reflectance data."
+  },
+  {
+    "instruction": "Up to what depth does remote sensing assess soil properties?",
+    "response": "Remote sensing estimates soil properties in the topsoil layer, up to approximately 5 cm (2 inches) deep, using surface reflectance data."
+  },
+  {
+    "instruction": "How does satellite-based soil analysis work?",
+    "response": "Satellites capture surface reflectance data across visible, near-infrared, and thermal infrared wavelengths. Spectral signatures estimate soil moisture, organic content, and minerals. Microwave sensors (e.g., Sentinel-1, SMAP) measure soil moisture via dielectric properties, while algorithms and machine learning models process data to generate soil maps for irrigation, health, and crop management."
+  },
+  {
+    "instruction": "What is the process behind satellite soil analysis?",
+    "response": "Satellites capture surface reflectance data across visible, near-infrared, and thermal infrared wavelengths. Spectral signatures estimate soil moisture, organic content, and minerals. Microwave sensors (e.g., Sentinel-1, SMAP) measure soil moisture via dielectric properties, while algorithms and machine learning models process data to generate soil maps for irrigation, health, and crop management."
+  },
+  {
+    "instruction": "Can you explain how satellite data is used for soil analysis?",
+    "response": "Satellites capture surface reflectance data across visible, near-infrared, and thermal infrared wavelengths. Spectral signatures estimate soil moisture, organic content, and minerals. Microwave sensors (e.g., Sentinel-1, SMAP) measure soil moisture via dielectric properties, while algorithms and machine learning models process data to generate soil maps for irrigation, health, and crop management."
+  },
+  {
+    "instruction": "What techniques are used to generate soil analysis reports?",
+    "response": "Techniques include:\n1. Spectral Analysis: Multispectral/hyperspectral imaging and vegetation indices (e.g., NDVI).\n2. Thermal Infrared Sensing: Measures soil temperature for moisture estimation.\n3. Microwave/Radar Sensing: SAR and passive microwave (e.g., SMAP) for soil moisture.\n4. Digital Soil Mapping: Machine learning and data fusion for predictive soil maps.\n5. Ground-Truth Calibration: Validates satellite data with ground samples."
+  },
+  {
+    "instruction": "Which methods are applied to create satellite-based soil reports?",
+    "response": "Techniques include:\n1. Spectral Analysis: Multispectral/hyperspectral imaging and vegetation indices (e.g., NDVI).\n2. Thermal Infrared Sensing: Measures soil temperature for moisture estimation.\n3. Microwave/Radar Sensing: SAR and passive microwave (e.g., SMAP) for soil moisture.\n4. Digital Soil Mapping: Machine learning and data fusion for predictive soil maps.\n5. Ground-Truth Calibration: Validates satellite data with ground samples."
+  },
+  {
+    "instruction": "How are soil analysis reports generated using remote sensing?",
+    "response": "Techniques include:\n1. Spectral Analysis: Multispectral/hyperspectral imaging and vegetation indices (e.g., NDVI).\n2. Thermal Infrared Sensing: Measures soil temperature for moisture estimation.\n3. Microwave/Radar Sensing: SAR and passive microwave (e.g., SMAP) for soil moisture.\n4. Digital Soil Mapping: Machine learning and data fusion for predictive soil maps.\n5. Ground-Truth Calibration: Validates satellite data with ground samples."
+  },
+  {
+    "instruction": "How are soil moisture reports generated using satellites?",
+    "response": "Soil moisture reports are generated using microwave wavelength satellite data (e.g., SAR), measuring surface-level moisture (a few cm deep) every 12 days, unaffected by cloud cover. Accuracy is ~80%, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "What is the method for generating soil moisture reports?",
+    "response": "Soil moisture reports are generated using microwave wavelength satellite data (e.g., SAR), measuring surface-level moisture (a few cm deep) every 12 days, unaffected by cloud cover. Accuracy is ~80%, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "Can you explain how satellite data is used for soil moisture reports?",
+    "response": "Soil moisture reports are generated using microwave wavelength satellite data (e.g., SAR), measuring surface-level moisture (a few cm deep) every 12 days, unaffected by cloud cover. Accuracy is ~80%, tested in India, Australia, New Zealand, France, and England. (Reference: Dr. Sat Kumar’s Google Scholar profile: https://scholar.google.com/citations?user=L7RClLcAAAAJ&hl=en&oi=ao)"
+  },
+  {
+    "instruction": "How are frequency days for satellite data determined?",
+    "response": "Frequency days are based on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily). Radar sensors (e.g., Sentinel-1) ensure consistent data collection despite cloud cover."
+  },
+  {
+    "instruction": "What determines the revisit interval or frequency days for satellites?",
+    "response": "Frequency days are based on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily). Radar sensors (e.g., Sentinel-1) ensure consistent data collection despite cloud cover."
+  },
+  {
+    "instruction": "How is the number of frequency days calculated for satellite observations?",
+    "response": "Frequency days are based on the satellite’s revisit time: Sentinel-2 (~5 days), Landsat 8 (~16 days), MODIS (daily). Radar sensors (e.g., Sentinel-1) ensure consistent data collection despite cloud cover."
+  },
+  {
+    "instruction": "Why can’t the interval for soil moisture reports be shortened?",
+    "response": "The frequency of soil moisture reports is limited by the satellite’s 12-day revisit cycle and data processing time, making it impossible to reduce the interval while maintaining accuracy."
+  },
+  {
+    "instruction": "Why is it not possible to reduce the days required to generate soil moisture reports?",
+    "response": "The frequency of soil moisture reports is limited by the satellite’s 12-day revisit cycle and data processing time, making it impossible to reduce the interval while maintaining accuracy."
+  },
+  {
+    "instruction": "What limits the reduction of time between soil moisture reports?",
+    "response": "The frequency of soil moisture reports is limited by the satellite’s 12-day revisit cycle and data processing time, making it impossible to reduce the interval while maintaining accuracy."
+  },
+  {
+    "instruction": "How are crop health reports generated in Sat2Farm?",
+    "response": "Crop health reports are generated using:\n1. Vegetation Indices: NDVI and others measure plant greenness.\n2. Thermal Imaging: Detects crop temperature for water stress.\n3. Moisture/Environmental Data: Integrates soil moisture and weather data.\n4. Machine Learning: Analyzes data for growth patterns and stress, enabling timely interventions."
+  },
+  {
+    "instruction": "What methods are used to create crop health reports?",
+    "response": "Crop health reports are generated using:\n1. Vegetation Indices: NDVI and others measure plant greenness.\n2. Thermal Imaging: Detects crop temperature for water stress.\n3. Moisture/Environmental Data: Integrates soil moisture and weather data.\n4. Machine Learning: Analyzes data for growth patterns and stress, enabling timely interventions."
+  },
+  {
+    "instruction": "Can you explain the process for generating crop health reports?",
+    "response": "Crop health reports are generated using:\n1. Vegetation Indices: NDVI and others measure plant greenness.\n2. Thermal Imaging: Detects crop temperature for water stress.\n3. Moisture/Environmental Data: Integrates soil moisture and weather data.\n4. Machine Learning: Analyzes data for growth patterns and stress, enabling timely interventions."
+  },
+  {
+    "instruction": "When can micronutrient reports be produced using satellites?",
+    "response": "Satellites like Sentinel-2 and Prisma monitor crop health via vegetation indices, but direct micronutrient (e.g., iron, vitamin A, B12) measurement is not yet feasible. Research shows potential using satellite data and machine learning to predict deficiencies, with future advancements expected to improve accuracy and timeliness."
+  },
+  {
+    "instruction": "Is it possible to generate micronutrient reports via remote sensing?",
+    "response": "Satellites like Sentinel-2 and Prisma monitor crop health via vegetation indices, but direct micronutrient (e.g., iron, vitamin A, B12) measurement is not yet feasible. Research shows potential using satellite data and machine learning to predict deficiencies, with future advancements expected to improve accuracy and timeliness."
+  },
+  {
+    "instruction": "Can satellites provide reports on micronutrients in crops?",
+    "response": "Satellites like Sentinel-2 and Prisma monitor crop health via vegetation indices, but direct micronutrient (e.g., iron, vitamin A, B12) measurement is not yet feasible. Research shows potential using satellite data and machine learning to predict deficiencies, with future advancements expected to improve accuracy and timeliness."
+  },
+  {
+    "instruction": "What framework is used to develop the soil/crop health model?",
+    "response": "The framework includes:\n1. Data Acquisition: Satellite imagery (NDVI, thermal) and ground truth data.\n2. Data Preprocessing: Corrects for atmospheric interference and aligns spatial data.\n3. Feature Extraction: Identifies vegetation indices, soil moisture, and thermal data.\n4. Model Development: Uses statistical and machine learning models (e.g., regression, neural networks) and geostatistical methods (e.g., kriging).\n5. Calibration/Validation: Uses ground truth for accuracy.\n6. Reporting/Visualization: Generates maps and actionable insights.\n7. Feedback Loop: Incorporates user feedback for continuous improvement."
+  },
+  {
+    "instruction": "Which steps are involved in developing the soil and crop health model?",
+    "response": "The framework includes:\n1. Data Acquisition: Satellite imagery (NDVI, thermal) and ground truth data.\n2. Data Preprocessing: Corrects for atmospheric interference and aligns spatial data.\n3. Feature Extraction: Identifies vegetation indices, soil moisture, and thermal data.\n4. Model Development: Uses statistical and machine learning models (e.g., regression, neural networks) and geostatistical methods (e.g., kriging).\n5. Calibration/Validation: Uses ground truth for accuracy.\n6. Reporting/Visualization: Generates maps and actionable insights.\n7. Feedback Loop: Incorporates user feedback for continuous improvement."
+  },
+  {
+    "instruction": "Can you describe the framework used for the soil/crop health model?",
+    "response": "The framework includes:\n1. Data Acquisition: Satellite imagery (NDVI, thermal) and ground truth data.\n2. Data Preprocessing: Corrects for atmospheric interference and aligns spatial data.\n3. Feature Extraction: Identifies vegetation indices, soil moisture, and thermal data.\n4. Model Development: Uses statistical and machine learning models (e.g., regression, neural networks) and geostatistical methods (e.g., kriging).\n5. Calibration/Validation: Uses ground truth for accuracy.\n6. Reporting/Visualization: Generates maps and actionable insights.\n7. Feedback Loop: Incorporates user feedback for continuous improvement."
+  },
+  {
+    "instruction": "How does Satyukt differ from other companies offering similar services?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "What makes Satyukt unique compared to other agricultural service providers?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Can you explain how Satyukt stands out from competitors in the remote sensing domain?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Can satellites provide soil test reports for greenhouses or polyhouses?",
+    "response": "Satellite-based soil analysis is challenging for greenhouses and polyhouses due to covered structures blocking satellite visibility. A minimum area of 30 m x 30 m is required for reliable data, making it generally not feasible."
+  },
+  {
+    "instruction": "Is it possible to get soil analysis for high-tech polyhouses using satellites?",
+    "response": "Satellite-based soil analysis is challenging for greenhouses and polyhouses due to covered structures blocking satellite visibility. A minimum area of 30 m x 30 m is required for reliable data, making it generally not feasible."
+  },
+  {
+    "instruction": "Can satellite technology measure soil properties in greenhouses?",
+    "response": "Satellite-based soil analysis is challenging for greenhouses and polyhouses due to covered structures blocking satellite visibility. A minimum area of 30 m x 30 m is required for reliable data, making it generally not feasible."
+  },
+  {
+    "instruction": "Can data be provided for coffee plantations grown under shade using satellites?",
+    "response": "Most services are available for coffee plantations, but satellite-based services (e.g., soil moisture, soil health) are not feasible if the canopy is not visible from above due to shade."
+  },
+  {
+    "instruction": "Is it possible to get satellite-based soil moisture or health data for shaded coffee crops?",
+    "response": "Most services are available for coffee plantations, but satellite-based services (e.g., soil moisture, soil health) are not feasible if the canopy is not visible from above due to shade."
+  },
+  {
+    "instruction": "How does shade affect satellite-based services for coffee plantations?",
+    "response": "Most services are available for coffee plantations, but satellite-based services (e.g., soil moisture, soil health) are not feasible if the canopy is not visible from above due to shade."
+  },
+  {
+    "instruction": "Can you provide a soil test report comparing lab and satellite data?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Is it possible to get a soil report that compares laboratory results with satellite analysis?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How can I obtain a soil test report comparing lab and remote sensing data?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "How are the mm values in irrigation advisories useful for farmers?",
+    "response": "The mm values in irrigation advisories indicate the amount of irrigation water required (in millimeters) based on crop type, stage, and soil moisture, helping farmers optimize water usage for crop growth."
+  },
+  {
+    "instruction": "What do mm values in irrigation recommendations signify for crop management?",
+    "response": "The mm values in irrigation advisories indicate the amount of irrigation water required (in millimeters) based on crop type, stage, and soil moisture, helping farmers optimize water usage for crop growth."
+  },
+  {
+    "instruction": "Why are millimeter values important in irrigation advisories?",
+    "response": "The mm values in irrigation advisories indicate the amount of irrigation water required (in millimeters) based on crop type, stage, and soil moisture, helping farmers optimize water usage for crop growth."
+  },
+  {
+    "instruction": "What do NDVI, NDRE, and NDMI mean, and are they obtained from satellites?",
+    "response": "NDVI (Normalized Difference Vegetation Index): Measures crop health via leaf greenness using satellite data (visible and near-infrared bands).\nNDRE (Normalized Difference Red Edge): Assesses plant health, particularly chlorophyll content, using red-edge bands.\nNDMI (Normalized Difference Moisture Index): Estimates vegetation water content using near-infrared and shortwave infrared bands.\nThese indices are derived from satellite data and serve as decision support mechanisms for monitoring crop health, water stress, and guiding irrigation and pest management."
+  },
+  {
+    "instruction": "Can you explain the indices NDVI, NDRE, NDMI and their role in satellite-based crop monitoring?",
+    "response": "NDVI (Normalized Difference Vegetation Index): Measures crop health via leaf greenness using satellite data (visible and near-infrared bands).\nNDRE (Normalized Difference Red Edge): Assesses plant health, particularly chlorophyll content, using red-edge bands.\nNDMI (Normalized Difference Moisture Index): Estimates vegetation water content using near-infrared and shortwave infrared bands.\nThese indices are derived from satellite data and serve as decision support mechanisms for monitoring crop health, water stress, and guiding irrigation and pest management."
+  },
+  {
+    "instruction": "What are NDVI, NDRE, and NDMI, and how do satellites use them for farming decisions?",
+    "response": "NDVI (Normalized Difference Vegetation Index): Measures crop health via leaf greenness using satellite data (visible and near-infrared bands).\nNDRE (Normalized Difference Red Edge): Assesses plant health, particularly chlorophyll content, using red-edge bands.\nNDMI (Normalized Difference Moisture Index): Estimates vegetation water content using near-infrared and shortwave infrared bands.\nThese indices are derived from satellite data and serve as decision support mechanisms for monitoring crop health, water stress, and guiding irrigation and pest management."
+  },
+  {
+    "instruction": "Can a holistic report be provided covering all Sat2Farm data?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Is it possible to get a comprehensive report for all features in Sat2Farm instead of only soil health?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Can I obtain a combined report for all Sat2Farm services?",
+    "response": "Please contact 8970700045 or 7019992797 for further information."
+  },
+  {
+    "instruction": "Does Razorpay accept international credit cards?",
+    "response": "Razorpay payments are country-specific. Please confirm directly with Razorpay for accurate details."
+  },
+  {
+    "instruction": "Can I use an international credit card to make payments via Razorpay?",
+    "response": "Razorpay payments are country-specific. Please confirm directly with Razorpay for accurate details."
+  },
+  {
+    "instruction": "Are international credit cards supported for Razorpay payments?",
+    "response": "Razorpay payments are country-specific. Please confirm directly with Razorpay for accurate details."
+  },
+  {
+    "instruction": "Tell me about Satyukt Analytics.",
+    "response": "Satyukt Analytics, founded in July 2018 and headquartered in Bengaluru, India, is a deep-tech agri-tech company specializing in decision analytics. It leverages satellite remote sensing, machine learning, and big data analytics to address challenges in agriculture, banking, financial services, and insurance globally. The company was founded by Dr. Sat Kumar Tomer, CEO, and Dr. Yukti Gill, Managing Director, with a vision to revolutionize agriculture using satellite technology and scalable digital tools."
+  },
+  {
+    "instruction": "What is the mission and focus of Satyukt Analytics?",
+    "response": "Satyukt Analytics aims to democratize satellite-based precision farming by providing scalable Software-as-a-Service (SaaS) solutions for farmers, agribusinesses, insurers, financial institutions, and government bodies. The company uses advanced technologies like satellite remote sensing, AI, machine learning, and cloud computing to deliver real-time, affordable, and scientifically-backed agricultural insights across over 50 countries, covering more than 500,000 acres and 130+ crop types."
+  },
+  {
+    "instruction": "Give an overview of Satyukt Analytics and its achievements.",
+    "response": "Founded in 2018 in Bengaluru, Satyukt Analytics is a deep-tech agri-tech company that combines satellite remote sensing, AI, and big data analytics to provide precision farming solutions globally. With its SaaS-based tools, Satyukt operates in over 50 countries, serving 130+ crop types across more than 500,000 acres. The company focuses on making agriculture smarter, sustainable, and efficient while addressing challenges in multiple sectors including agriculture, banking, and insurance."
+  },
+  {
+    "instruction": "Tell me about Sat2Farm, the satellite-based advisory platform for farmers.",
+    "response": "Sat2Farm is a farmer-first digital platform providing real-time agricultural insights via mobile and desktop. Using high-resolution satellite data and AI models, it monitors crop health, detects stress from pests, diseases, weeds, and water deficiencies, and provides soil nutrient status (N, P, K, pH, SOC) along with irrigation recommendations based on soil moisture and weather conditions. The platform includes vegetation indices like NDVI, image-based crop diagnostics, and personalized alerts. It is available in over 20 regional languages, making it accessible and inclusive for farmers."
+  },
+  {
+    "instruction": "What features does Sat2Farm offer to help farmers optimize crop productivity?",
+    "response": "Sat2Farm empowers farmers to optimize input use, prevent yield losses, and enhance farm productivity. It provides soil nutrient information, irrigation recommendations, vegetation indices like NDVI, and alerts on crop stress caused by pests, diseases, weeds, or water deficiencies. Its AI-driven platform allows timely, cost-effective decision-making and is available in more than 20 regional languages."
+  },
+  {
+    "instruction": "How does Sat2Farm use satellite and AI technology for farming?",
+    "response": "Sat2Farm uses high-resolution satellite imagery combined with AI models to monitor crop health, detect early signs of stress, and provide actionable insights. It delivers soil nutrient status, irrigation advice, vegetation indices, and image-based diagnostics, helping farmers make precise and timely decisions to enhance productivity and minimize losses."
+  },
+  {
+    "instruction": "Describe Sat4Agri and its purpose for agribusinesses and institutions.",
+    "response": "Sat4Agri is designed for agribusinesses, NGOs, development agencies, and government bodies to remotely monitor hundreds or thousands of farms using satellite imagery and machine learning. It provides data on vegetation health (NDVI, NDRE, SAVI), crop stages, rainfall, irrigation needs, and nutrient deficiencies. The platform supports centralized dashboards, bulk data handling, customizable analytics, and enhances operational efficiency, especially for contract farming, public welfare programs, and corporate sustainability tracking."
+  },
+  {
+    "instruction": "How does Sat4Agri help organizations with large-scale agricultural operations?",
+    "response": "Sat4Agri enables organizations to deliver timely advisories, evaluate interventions, and improve input distribution by monitoring large numbers of farms via satellite imagery and machine learning. Its centralized dashboards, bulk data processing, and customizable analytics allow smart decision-making and enhanced operational efficiency across regions."
+  },
+  {
+    "instruction": "What capabilities does Sat4Agri provide for monitoring crop health and irrigation?",
+    "response": "Sat4Agri provides vegetation indices (NDVI, NDRE, SAVI), crop stage monitoring, rainfall patterns, irrigation requirements, and nutrient deficiency alerts. It integrates satellite imagery and machine learning to support large-scale agricultural management and decision-making for agribusinesses, NGOs, and government bodies."
+  },
+  {
+    "instruction": "Explain Sat4Risk and its role in farm risk assessment and crop insurance.",
+    "response": "Sat4Risk assesses, monitors, and manages agricultural risks for insurers, reinsurers, and disaster management agencies. It uses multi-source satellite data to identify risks like drought, flood, crop failure, and pest outbreaks, providing pre-season risk profiling, in-season alerts, and post-season assessment tools. Sat4Risk supports indemnity-based and parametric insurance models, enhances claim validation, and aids government early warning systems and disaster response."
+  },
+  {
+    "instruction": "How does Sat4Risk help insurers and government agencies manage agricultural risks?",
+    "response": "Sat4Risk provides satellite-based monitoring and alerts for risks such as drought, flood, crop failure, and pest outbreaks. It helps insurers validate claims, reduce fraud, and supports government agencies in early warning systems, food security planning, and disaster management, improving agricultural resilience and financial protection."
+  },
+  {
+    "instruction": "What features make Sat4Risk useful for crop insurance and disaster management?",
+    "response": "Sat4Risk offers historical and real-time satellite imagery, pre-season risk profiling, in-season alerts, and post-season assessments. It supports both indemnity-based and parametric insurance models, helping insurers and government agencies manage agricultural risks effectively while accelerating claim settlements."
+  },
+  {
+    "instruction": "Describe Satyukt's MRV platform for carbon and soil health monitoring.",
+    "response": "Satyukt's MRV (Measurement, Reporting & Verification) platform enables sustainability-driven organizations to measure, report, and verify Soil Organic Carbon (SOC) using satellite data and AI. It quantifies carbon sequestration and soil health improvements from regenerative practices, supports certified carbon credits, ESG goal achievement, and reduces reliance on manual sampling and lab testing, offering a scalable, science-backed alternative for carbon and soil health monitoring."
+  },
+  {
+    "instruction": "How does the MRV platform help organizations track carbon and soil health?",
+    "response": "The MRV platform uses satellite data and AI-driven models to measure SOC, quantify carbon sequestration, and monitor soil health improvements from practices like cover cropping and reduced tillage. It supports certified carbon credits, ESG reporting, and scalable monitoring without heavy reliance on manual sampling."
+  },
+  {
+    "instruction": "What is the purpose of Satyukt's MRV system in climate-smart agriculture?",
+    "response": "Satyukt's MRV system supports climate-smart agriculture by providing accurate measurement, reporting, and verification of soil organic carbon and soil health. It enables organizations to track environmental impacts, generate certified carbon credits, and validate sustainable practices across diverse geographies using satellite and AI technologies."
+  },
+  {
+    "instruction": "In which countries does Satyukt Analytics operate?",
+    "response": "Satyukt Analytics operates in over 50 countries, including India, Bangladesh, Sri Lanka, Afghanistan, Malaysia, Indonesia, the Philippines, Singapore, Turkey, Iran, Kuwait, Saudi Arabia, UAE, USA, Colombia, Venezuela, Suriname, Ghana, Nigeria, Kenya, Tanzania, Uganda, Zambia, Namibia, Botswana, South Africa, South Sudan, Egypt, Morocco, Algeria, Tunisia, Togo, Benin, Cameroon, DR Congo, Ethiopia, Somalia, Mozambique, Zimbabwe, Malawi, Swaziland, Guyana, Netherlands, Ireland, Albania, Finland, Bulgaria, Ukraine, Bosnia and Herzegovina, Switzerland, Denmark, and Sweden."
+  },
+  {
+    "instruction": "Describe the global presence of Satyukt Analytics.",
+    "response": "Satyukt Analytics has a global footprint across more than 50 countries, serving smallholder farmers, agribusinesses, and government programs. Its platforms provide crop monitoring, credit profiling, insurance automation, sustainability tracking, and climate-risk planning across diverse regions including Asia, Africa, Europe, and the Americas."
+  },
+  {
+    "instruction": "Where are Satyukt Analytics’ services available worldwide?",
+    "response": "Satyukt Analytics services are deployed in over 50 countries, supporting agriculture, insurance, finance, climate, and policy sectors. Its platforms reach users from rural smallholder farmers to multinational agribusinesses and government programs, with multilingual support and mobile accessibility for local and national-scale implementations."
+  },
+  {
+    "instruction": "Which sectors does Satyukt Analytics serve?",
+    "response": "Satyukt Analytics serves stakeholders across agriculture, insurance, finance, climate, and policy sectors. Its platforms support crop monitoring, credit profiling, insurance automation, sustainability tracking, and climate-risk planning at micro and macro levels."
+  },
+  {
+    "instruction": "What types of users benefit from Satyukt Analytics services?",
+    "response": "Satyukt Analytics supports a wide range of users, from smallholder farmers in rural areas to global agribusinesses and government programs. Its scalable platforms provide tailored solutions, including multilingual support and mobile accessibility, making them suitable for both local and national-scale deployments."
+  },
+  {
+    "instruction": "How does Satyukt Analytics scale its services globally?",
+    "response": "Satyukt Analytics platforms scale effortlessly across regions and user types, providing crop monitoring, credit profiling, insurance automation, sustainability tracking, and climate-risk planning. Customizable solutions, mobile accessibility, and multilingual support enable deployment from local villages to national-level programs."
+  },
+  {
+    "instruction": "Who leads Satyukt Analytics and what is the team's expertise?",
+    "response": "Satyukt Analytics is led by Founder and CEO Dr. Sat Kumar Tomer and Managing Director Dr. Yukti Gill. The team includes experts in agriculture, hydrology, meteorology, remote sensing, and data science, supported by a scientific advisory group and interdisciplinary professionals to ensure research-level accuracy in commercial applications."
+  },
+  {
+    "instruction": "Describe the scientific and technical strength of Satyukt Analytics.",
+    "response": "The Satyukt team combines expertise in satellite data processing, field-level agricultural modeling, and data science. Backed by a strong scientific advisory group, the company ensures that each solution is technically robust, practically implementable, and continuously improved based on technological advancements, user feedback, and climate trends."
+  },
+  {
+    "instruction": "How does Satyukt Analytics ensure accurate and practical solutions?",
+    "response": "Satyukt Analytics ensures accuracy and practicality by leveraging a team of experts in agriculture, hydrology, meteorology, remote sensing, and data science, along with a strong scientific advisory group. Solutions are developed using years of experience in satellite data processing and field-level agricultural modeling, and are continuously refined based on technological advancements, user feedback, and climate trends."
+  },
+  {
+    "instruction": "What makes Satyukt Analytics different from other agri-tech companies?",
+    "response": "Satyukt Analytics differentiates itself through a unique combination of science, scalability, and simplicity. It builds and controls its entire data pipeline—from satellite data acquisition and proprietary algorithm development to visualization and delivery. Insights are affordable, hyperlocal, and easy to understand, making precision farming accessible to even remote users."
+  },
+  {
+    "instruction": "How does Satyukt ensure its agri-tech solutions are innovative and accessible?",
+    "response": "Satyukt ensures innovation and accessibility by managing the full data pipeline, translating satellite data into real-time decision-making tools. Its products are designed to be affordable, hyperlocal, and user-friendly, serving the entire agricultural value chain from individual farmers to banks and ESG-focused institutions."
+  },
+  {
+    "instruction": "Why is Satyukt considered unique in the agri-tech space?",
+    "response": "Satyukt is unique because it combines scientific rigor with scalable, simple solutions. By controlling the end-to-end data pipeline and delivering real-time, easy-to-understand insights, the company makes precision farming accessible to diverse users while supporting the entire agricultural ecosystem, from farmers to insurers and ESG-driven organizations."
+  },
+  {
+    "instruction": "Who does Satyukt Analytics collaborate with in the agricultural ecosystem?",
+    "response": "Satyukt Analytics collaborates with agritech startups, banks, FPOs, NGOs, insurance firms, climate organizations, and government departments. The company provides APIs, white-labeled dashboards, and enterprise-grade solutions for seamless integration with partner operations."
+  },
+  {
+    "instruction": "How does Satyukt support partnerships and collaborations?",
+    "response": "Satyukt supports partnerships through APIs, white-labeled dashboards, and enterprise-grade solutions, enabling integration with partner operations. The company is open to joint research, pilot programs, and sustainability projects that drive digital transformation in agriculture."
+  },
+  {
+    "instruction": "What opportunities exist for organizations to work with Satyukt Analytics?",
+    "response": "Organizations can collaborate with Satyukt Analytics through joint research, pilot programs, sustainability projects, or by integrating APIs and white-labeled dashboards into their operations. Satyukt positions itself as a trusted partner for adopting data-driven, climate-smart solutions in agriculture."
+  },
+  {
+    "instruction": "How does the Sat2Farm app work?",
+    "response": "Sat2Farm uses satellite data and AI to give you farm-specific insights. Add your farm by\ngeo-tagging, select your crop, and receive updates on soil health, irrigation, weather,\npest/disease risks, and more."
+  },
+  {
+    "instruction": "Is there a demo for this app?",
+    "response": "Yes! Watch our demo video here: https://youtu.be/DgiBr4AdBv0\nExplore the demo farm inside the app to understand features before subscribing."
+  },
+  {
+    "instruction": "I’m new here. How do I start using the app?",
+    "response": "Welcome! Start by adding your farm using the \"Add Farm\" feature. Then select your crop\nand sowing date. You'll begin receiving tailored scientific insights. Need help? Ask anytime!"
+  },
+  {
+    "instruction": "What languages does the app support?",
+    "response": "Currently available in English, Hindi, Kannada, Telugu, and more. Language can be\nselected from the profile section.\nAdding a Farm"
+  },
+  {
+    "instruction": "How to add my farm in the App?",
+    "response": "Go to Home → Tap \"Add New\" → Choose Walk or Draw method → Mark the boundary →\nFill in farm name, crop, sowing date → Save. Your farm will be listed under \"My Farms\"."
+  },
+  {
+    "instruction": "I walked around my farm but it shows 0.0 acres?",
+    "response": "Ensure your GPS/location is on, walk slowly around the full boundary, and avoid standing\nstill for long. Try redrawing if the issue persists."
+  },
+  {
+    "instruction": "Can I add multiple farms?",
+    "response": "Yes! You can add as many farms as needed. Each will have a unique Farm ID for\ntracking."
+  },
+  {
+    "instruction": "Can I delete or edit a farm?",
+    "response": "Yes you can delete a farm and you edit farm details such as Sowing date and crop only.\nBut the farm name and coordinates can’t be edited. Contact support with your Farm ID for\nany specific queries.\nCrop Health / NDVI"
+  },
+  {
+    "instruction": "How do I check NDVI for farming health?",
+    "response": "Go to \"My Farms\" → Select your farm → Tap \"Crop Health\". You’ll see the NDVI map with\ncolor zones (Red = Poor, Green = Healthy)."
+  },
+  {
+    "instruction": "How do I check NDVI for agriculture health?",
+    "response": "Go to \"My Farms\" → Select your farm → Tap \"Crop Health\". You’ll see the NDVI map with\ncolor zones (Red = Poor, Green = Healthy)."
+  },
+  {
+    "instruction": "How do I check NDVI for crop health?",
+    "response": "Go to \"My Farms\" → Select your farm → Tap \"Crop Health\". You’ll see the NDVI map with\ncolor zones (Red = Poor, Green = Healthy)."
+  },
+  {
+    "instruction": "Why is agriculture health not updating?",
+    "response": "NDVI updates every 5 days. If cloudy, data might be skipped. Check the next update date\nin the same section."
+  },
+  {
+    "instruction": "Why is farming health not updating?",
+    "response": "NDVI updates every 5 days. If cloudy, data might be skipped. Check the next update date\nin the same section."
+  },
+  {
+    "instruction": "Why is crop health not updating?",
+    "response": "NDVI updates every 5 days. If cloudy, data might be skipped. Check the next update date\nin the same section."
+  },
+  {
+    "instruction": "How to understand the NDVI chart?",
+    "response": "NDVI chart shows crop health trends over time. Higher curve = better vegetation.\nCompare weekly values to track crop progress.\nSoil Health & Moisture"
+  },
+  {
+    "instruction": "How do I get a soil health report?",
+    "response": "After adding your farm and selecting the crop, tap \"Soil Health\". You’ll see macronutrients\n(N, P, K), pH, and organic carbon. Report is downloadable as PDF."
+  },
+  {
+    "instruction": "How is soil health measured by satellite?",
+    "response": "It’s estimated using satellite spectral bands + AI models trained on lab data. This gives\nnon-invasive, cost-effective insights."
+  },
+  {
+    "instruction": "Why is my soil moisture data old?",
+    "response": "Soil moisture updates every 12 days. If recent data is missing, it may be due to satellite\nschedule or cloud/rain interference."
+  },
+  {
+    "instruction": "LSWI is low even after irrigation. Why?",
+    "response": "LSWI may take 1-3 days to reflect changes. Factors like soil type or cloudy weather may\ndelay visible updates.\nWeather Forecast"
+  },
+  {
+    "instruction": "How to view the weather forecast?",
+    "response": "In \"My Farms\", select your farm → Tap \"Weather\" → View 14-day forecast for\ntemperature, rainfall, wind, and cloud cover graphically."
+  },
+  {
+    "instruction": "Why is the forecast not updating?",
+    "response": "Refresh the app or check the internet. Forecast updates every 3 hours."
+  },
+  {
+    "instruction": "Can I get rainfall data in mm?",
+    "response": "Yes. Under the Rainfall tab, mm values are shown per day. Pinch to zoom for details."
+  },
+  {
+    "instruction": "Does it predict the monsoon accurately?",
+    "response": "It’s ~80% accurate for the next 3 days; monsoon can change quickly. Use local\nknowledge as a supplement."
+  },
+  {
+    "instruction": "How to get irrigation recommendations?",
+    "response": "Tap \"Irrigation\" → See amount (mm) and frequency for surface, sprinkler, and drip based\non your crop stage and soil moisture."
+  },
+  {
+    "instruction": "Why is the irrigation section not working?",
+    "response": "Data may be processed. Wait up to 4 hours after adding farm or contact support if\npersists."
+  },
+  {
+    "instruction": "What do mm values mean?",
+    "response": "Millimeters of water per acre needed to reach optimal moisture."
+  },
+  {
+    "instruction": "Can I follow the schedule for drip irrigation?",
+    "response": "Yes. In irrigation advisory, follow the \"Drip\" method for specific guidance.\nCrop Calendar"
+  },
+  {
+    "instruction": "What is the Crop Calendar?",
+    "response": "A weekly timeline of farm activities from field prep to harvest, tailored to your sowing date."
+  },
+  {
+    "instruction": "How to retrieve Crop Calendar?",
+    "response": "Tap \"Crop Calendar\" in your farm menu. Scroll weeks to see tasks and input\nrecommendations."
+  },
+  {
+    "instruction": "How to get Crop Calendar?",
+    "response": "Tap \"Crop Calendar\" in your farm menu. Scroll weeks to see tasks and input\nrecommendations."
+  },
+  {
+    "instruction": "How to access Crop Calendar?",
+    "response": "Tap \"Crop Calendar\" in your farm menu. Scroll weeks to see tasks and input\nrecommendations."
+  },
+  {
+    "instruction": "How to open Crop Calendar?",
+    "response": "Tap \"Crop Calendar\" in your farm menu. Scroll weeks to see tasks and input\nrecommendations."
+  },
+  {
+    "instruction": "Does it cover pest control?",
+    "response": "Yes, in specific cases it flags spraying windows for pesticides and organic options.\nOtherwise, covered in pest and disease forewarning.\nPest & Disease Forewarning"
+  },
+  {
+    "instruction": "How do I get pest and disease alerts?",
+    "response": "Open \"Pest & Disease Forewarning\" → View upcoming risk dates, symptom details, and\ncontrol measures."
+  },
+  {
+    "instruction": "What factors trigger alerts?",
+    "response": "Weather parameters: temperature, humidity, rainfall."
+  },
+  {
+    "instruction": "How accurate are these warnings?",
+    "response": "~85% based on historical data and weather."
+  },
+  {
+    "instruction": "Can I request specific disease info?",
+    "response": "Yes. Use \"Community\" or \"Image Advisory\" to ask experts.\nImage Advisory"
+  },
+  {
+    "instruction": "How to upload farming photos?",
+    "response": "Tap \"Image Advisory\" → Camera icon → Take or select more than 3 clear images → Add\ncomments → Submit."
+  },
+  {
+    "instruction": "How to upload agriculture photos?",
+    "response": "Tap \"Image Advisory\" → Camera icon → Take or select more than 3 clear images → Add\ncomments → Submit."
+  },
+  {
+    "instruction": "How to upload crop photos?",
+    "response": "Tap \"Image Advisory\" → Camera icon → Take or select more than 3 clear images → Add\ncomments → Submit."
+  },
+  {
+    "instruction": "How long for diagnosis?",
+    "response": "3-4 hours (working hours)."
+  },
+  {
+    "instruction": "No reply after 2 days. What now?",
+    "response": "Re-upload images with timestamp or contact support with Farm ID."
+  },
+  {
+    "instruction": "Can I get organic solutions?",
+    "response": "Yes, we also provide organic solutions based on requirements. Contact support for more\ninformation.\nTrial & Pricing"
+  },
+  {
+    "instruction": "Can I get a trial?",
+    "response": "We offer a demo farm, but no free trial. Subscribe at ₹800/acre/season for full access."
+  },
+  {
+    "instruction": "Any offer for new farmers?",
+    "response": "Contact sales at contact@satyukt.com."
+  },
+  {
+    "instruction": "Why no freemium?",
+    "response": "Premium services support real-time updates and expert advisory."
+  },
+  {
+    "instruction": "Can I pay per region currency?",
+    "response": "Currently INR only via Razorpay. Local currency support is in development.\nPayment & Unlock"
+  },
+  {
+    "instruction": "Payment done but farm not unlocked?",
+    "response": "Sync delay up to 2 hours. If still locked, share Farm ID to support@satyukt.com."
+  },
+  {
+    "instruction": "How to pay?",
+    "response": "In-app via Razorpay. Go to Farm → Lock icon → Pay."
+  },
+  {
+    "instruction": "Is each farm charged separately?",
+    "response": "Yes. ₹800 per acre per season per farm."
+  },
+  {
+    "instruction": "Can I update the referral code?",
+    "response": "Only once after signup. Contact support if you missed it.\nTroubleshooting"
+  },
+  {
+    "instruction": "Data not loading?",
+    "response": "Check the internet. Switch between Wi-Fi & mobile data."
+  },
+  {
+    "instruction": "Farm deleted automatically?",
+    "response": "Rare issue. Contact support with Farm ID & timestamp."
+  },
+  {
+    "instruction": "Multiple farms with the same name error?",
+    "response": "Rare issue. Contact support to merge them into a single record..\nCommunity & Support"
+  },
+  {
+    "instruction": "How to contact you?",
+    "response": "Call +91-8970095700, email contact@satyukt.com, or use the Community page in-app."
+  },
+  {
+    "instruction": "How to use a Community page?",
+    "response": "Tap Community → + icon → Enter your question → Submit. Experts reply in 24 hrs."
+  },
+  {
+    "instruction": "Can I share farms with others?",
+    "response": "Yes. In My Farms → ••• menu → Share → Enter mobile number."
+  },
+  {
+    "instruction": "Do you call for clarifications?",
+    "response": "Yes, experts may call if more details are needed.\nLanguage Support"
+  },
+  {
+    "instruction": "Can I switch app language?",
+    "response": "Tap menu → Switch Language → Choose from available options."
+  },
+  {
+    "instruction": "Are advisories translated?",
+    "response": "Advisories are in English & major languages based on crop support."
+  },
+  {
+    "instruction": "Need Hindi replies?",
+    "response": "Use a Community page in Hindi; our team responds in kind."
+  },
+  {
+    "instruction": "How to add a new language?",
+    "response": "Contact support to request for your language.\nData Accuracy"
+  },
+  {
+    "instruction": "What is the accuracy of soil moisture?",
+    "response": "~80%."
+  },
+  {
+    "instruction": "How accurate is the weather forecast?",
+    "response": "~90% for next 3 days; drops in monsoon."
+  },
+  {
+    "instruction": "Soil health accuracy?",
+    "response": "~85-90%, varies by region & crop."
+  },
+  {
+    "instruction": "NDVI accuracy?",
+    "response": "Optical measure; reliable within 5-day window when clear.\nAdvanced"
+  },
+  {
+    "instruction": "Can I analyze terrace gardens?",
+    "response": "Soil moisture & NDVI need more than 30m × 30m. Smaller gardens not supported."
+  },
+  {
+    "instruction": "Can I get NPK for a terrace garden?",
+    "response": "No, soil health requires more than ¼ acre."
+  },
+  {
+    "instruction": "Thick plantations (banana, coconut)?",
+    "response": "Weather & NDVI supported; soil health & moisture less accurate under canopy."
+  },
+  {
+    "instruction": "Insurance integration?",
+    "response": "We offer an API (Sat4Risk) for insurers to integrate.\nHistorical Data"
+  },
+  {
+    "instruction": "Can I open last year’s data?",
+    "response": "Yes, request historical export (paid). Not directly in-app."
+  },
+  {
+    "instruction": "Can I get last year’s data?",
+    "response": "Yes, request historical export (paid). Not directly in-app."
+  },
+  {
+    "instruction": "Can I retrieve last year’s data?",
+    "response": "Yes, request historical export (paid). Not directly in-app."
+  },
+  {
+    "instruction": "Can I access last year’s data?",
+    "response": "Yes, request historical export (paid). Not directly in-app."
+  },
+  {
+    "instruction": "How old is satellite data used?",
+    "response": "Up to 6 months for barren land analysis."
+  },
+  {
+    "instruction": "Can I backfill KML farms?",
+    "response": "We can import KML for paid customers-contact support.\nCarbon & Sustainability"
+  },
+  {
+    "instruction": "Carbon emissions for rice fields?",
+    "response": "We estimate via our MRV algorithm. Results available on request."
+  },
+  {
+    "instruction": "How to get carbon credits?",
+    "response": "We estimate emissions; contact support for more information.\nTech"
+  },
+  {
+    "instruction": "Can I access the admin portal?",
+    "response": "Yes at https://sat2farm.com/ with your credentials."
+  },
+  {
+    "instruction": "Can I open the admin portal?",
+    "response": "Yes at https://sat2farm.com/ with your credentials."
+  },
+  {
+    "instruction": "Can I retrieve the admin portal?",
+    "response": "Yes at https://sat2farm.com/ with your credentials."
+  },
+  {
+    "instruction": "Can I get the admin portal?",
+    "response": "Yes at https://sat2farm.com/ with your credentials."
+  },
+  {
+    "instruction": "How to submit app feedback?",
+    "response": "Menu → Feedback → Submit your suggestions."
+  },
+  {
+    "instruction": "Can I suggest new features?",
+    "response": "Yes. Use Feedback or email to contact@satyukt.com."
+  },
+  {
+    "instruction": "Report bugs?",
+    "response": "Capture screenshot and share via support email with Farm ID.\nFAQ Quick References"
+  },
+  {
+    "instruction": "Is this app free?",
+    "response": "No, ₹800/acre/season."
+  },
+  {
+    "instruction": "Min area needed?",
+    "response": "30m×30m for satellite features."
+  },
+  {
+    "instruction": "Trial available?",
+    "response": "Only demo farm."
+  },
+  {
+    "instruction": "Support contact?",
+    "response": "+91-8970095700 / contact@satyukt.com.\nCommunity Greetings"
+  },
+  {
+    "instruction": "Hello, I’m new here-any guidance?",
+    "response": "Welcome! Geo-tag your farm and explore features. Ask any question on the Community\npage!"
+  },
+  {
+    "instruction": "Good morning everyone!",
+    "response": "Hi! How can we assist you today?"
+  },
+  {
+    "instruction": "I’m happy to be here!",
+    "response": "Great to have you! Let us know your farm location to get started."
+  },
+  {
+    "instruction": "Is there anyone from [Country]?",
+    "response": "Yes-connect with our community from your region!\nLanguage Queries"
+  },
+  {
+    "instruction": "“इस app mein kya hai?”",
+    "response": "It’s a digital farm advisor-satellite + AI insights on soil, irrigation, pest, weather, NDVI."
+  },
+  {
+    "instruction": "Does it work in Nigeria/Ghana/Kenya?",
+    "response": "Yes! Works globally. Crop lists tailored per region."
+  },
+  {
+    "instruction": "Can I pay in UGX/GHS?",
+    "response": "INR only now. We plan multi-currency soon."
+  },
+  {
+    "instruction": "Local map inaccuracies?",
+    "response": "Uses Google Earth base map; cannot edit landmarks."
+  },
+  {
+    "instruction": "Local crop planners?",
+    "response": "Based on global agronomy; adjust with local practices.\nData Export & Reports"
+  },
+  {
+    "instruction": "Local agriculture calendars?",
+    "response": "Based on global agronomy; adjust with local practices.\nData Export & Reports"
+  },
+  {
+    "instruction": "Local crop schedules?",
+    "response": "Based on global agronomy; adjust with local practices.\nData Export & Reports"
+  },
+  {
+    "instruction": "Local farming calendars?",
+    "response": "Based on global agronomy; adjust with local practices.\nData Export & Reports"
+  },
+  {
+    "instruction": "Local crop calendars?",
+    "response": "Based on global agronomy; adjust with local practices.\nData Export & Reports"
+  },
+  {
+    "instruction": "Can I download reports?",
+    "response": "Yes-tap the download icon on Soil Health, Weather, Calendar pages."
+  },
+  {
+    "instruction": "Export historical data?",
+    "response": "Request via support (paid)."
+  },
+  {
+    "instruction": "Share report externally?",
+    "response": "Download PDF and share via email or WhatsApp.\nSpecialized Crops"
+  },
+  {
+    "instruction": "Coffee & Tea support?",
+    "response": "Weather, Calendar, Pest advisories work. NDVI under shade is less accurate."
+  },
+  {
+    "instruction": "Horticulture agricultures (onion, papaya)?",
+    "response": "Supported. Use the same workflows → Soil Health, NDVI, Calendar."
+  },
+  {
+    "instruction": "Horticulture crops (onion, papaya)?",
+    "response": "Supported. Use the same workflows → Soil Health, NDVI, Calendar."
+  },
+  {
+    "instruction": "Horticulture farmings (onion, papaya)?",
+    "response": "Supported. Use the same workflows → Soil Health, NDVI, Calendar."
+  },
+  {
+    "instruction": "Greenhouse / polyhouse?",
+    "response": "Satellite features limited-can analyze open areas; others under development."
+  },
+  {
+    "instruction": "Terrace garden?",
+    "response": "Minimum area rule applies; small patches not supported.\nAdditional Services"
+  },
+  {
+    "instruction": "Carbon credit estimation?",
+    "response": "Available via MRV. Contact sustainability@satyukt.com."
+  },
+  {
+    "instruction": "Integration with insurance?",
+    "response": "Our Sat4Risk API feeds insurers with risk reports."
+  },
+  {
+    "instruction": "Land undulation maps?",
+    "response": "DEM at 30m resolution available (paid)."
+  },
+  {
+    "instruction": "Market trend data?",
+    "response": "Not provided. Focus is on agronomy & decision support.\nTech Support & Integration"
+  },
+  {
+    "instruction": "Admin portal get?",
+    "response": "Available to enterprise clients-email your request."
+  },
+  {
+    "instruction": "Admin portal retrieve?",
+    "response": "Available to enterprise clients-email your request."
+  },
+  {
+    "instruction": "Admin portal open?",
+    "response": "Available to enterprise clients-email your request."
+  },
+  {
+    "instruction": "Admin portal access?",
+    "response": "Available to enterprise clients-email your request."
+  },
+  {
+    "instruction": "Web portal trial?",
+    "response": "Demo available-schedule via https://satyukt.com/index.html.\nConclusion & Next Steps"
+  },
+  {
+    "instruction": "Where to get help?",
+    "response": "Contact +91-8970095700, email contact@satyukt.com, or use in-app Community."
+  },
+  {
+    "instruction": "Want more features?",
+    "response": "Submit ideas via Feedback in the menu."
+  },
+  {
+    "instruction": "How to stay updated?",
+    "response": "Follow us on Facebook & LinkedIn."
+  },
+  {
+    "instruction": "Thank you!",
+    "response": "We appreciate your trust. Happy farming!\nContact Us\nYou can get in touch with the Satyukt team via the following channels:\n Address: 2nd Floor, 1A Block, Sanjay Nagar Main Rd, CIL Layout\nBlock, Judicial Colony, Raj Mahal Vilas 2nd Stage, Sanjayanagara,\nBengaluru, Karnataka 560094"
+  },
+  {
+    "instruction": "Where Can I get soil moisture?",
+    "response": "Go to \"My Farms\" → Select your farm → Tap \"Soil Moisture\"."
+  },
+  {
+    "instruction": "Where is satyukt analytics located?",
+    "response": "Address: 2nd Floor, 1A Block, Sanjay Nagar Main Rd, CIL Layout\nBlock, Judicial Colony, Raj Mahal Vilas 2nd Stage, Sanjayanagara,\nBengaluru, Karnataka 560094"
+  },
+  {
+    "instruction": "What is Sat2Farm?",
+    "response": "Sat2Farm is a mobile and web application that uses satellite technology to provide farmers with precision agriculture insights, such as crop health, soil moisture, and weather forecasts, to optimize farming practices, improve yields, and manage resources like water and fertilizer more efficiently"
+  },
+  {
+    "instruction": "Is the app available for Iphone?",
+    "response": "Yes, an iPhone version of the Sat2Farm app is available."
+  },
+  {
+    "instruction": "Is the app free?",
+    "response": "Registration and adding farms is free. LSWI and NDVI reports are complementary services, but other features incur charges."
+  },
+  {
+    "instruction": "Who is the CEO of Satyukt Analytics?",
+    "response": "Satyukt Analytics is led by Founder and CEO Dr. Sat Kumar Tomer"
+  }
+]
