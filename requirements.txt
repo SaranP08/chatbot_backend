@@ -1,6 +1,7 @@
 # --- FastAPI Web Server ---
 fastapi==0.104.1
 uvicorn[standard]==0.23.2
+gunicorn
 pydantic==2.5.0
 python-multipart==0.0.6
 
