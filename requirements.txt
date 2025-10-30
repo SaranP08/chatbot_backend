@@ -1,0 +1,25 @@
+# --- FastAPI Web Server ---
+fastapi==0.104.1
+uvicorn[standard]==0.23.2
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# --- Core ML & NLP Libraries (with specific versions for stability) ---
+torch==2.3.1
+sentence-transformers==3.0.1
+numpy==1.26.4
+huggingface-hub==0.23.4
+
+# --- LangChain Framework (letting pip resolve the core dependency) ---
+langchain-community==0.2.12
+langchain-huggingface==0.0.3
+
+# --- RAG Pipeline Components ---
+faiss-cpu==1.8.0
+llama-cpp-python==0.2.79
+flashrank==0.2.10
+
+# --- Document Processing & Utilities ---
+pypdf==4.2.0
+rank-bm25==0.2.2
+deep-translator==1.11.4
